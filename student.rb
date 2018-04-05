@@ -1,6 +1,7 @@
+# Given Student class which sets/gets name, id, grade and age
 class Student
   def initialize
-    @name = String.new()
+    @name = String.new
     @age = Integer
     @id = Integer
     @grade = Integer
@@ -10,20 +11,19 @@ class Student
     @id == id
   end
 
-  def name()
+  def name
     @name
   end
 
   def name=(name)
-    @name=name
+    @name = name
   end
 
   def age=(age)
-    @age=age
+     @age = age
   end
 
-  #additional code since Woodcock forgot
-  def age()
+  def age
     @age
   end
 
@@ -31,11 +31,11 @@ class Student
     @id = id
   end
 
-  def grade()
+  def grade
     @grade
   end
 
   def grade=(grade)
-    @grade=grade
+    @grade = grade
   end
 end
